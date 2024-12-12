@@ -1,11 +1,9 @@
-# Ejecutar docker compose
+# Ejecutar aplicación
 ```
-docker compose up -d
+cd npl/openai
+streamlit run app.py
 ```
-# Conectarse a la base de datos
-```
-psql -h 127.0.0.1 -U postgres -W
-```
-# Comandos PostgreSQL luego del login
-```
+# Directorios
+- **npl/openai**: Archivos de embeddings y modelos de lenguaje. Aplicación en Streamlit.
+- **supermercados**: web scraping de supermercados.
 
